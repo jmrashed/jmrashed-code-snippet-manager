@@ -1,0 +1,25 @@
+{
+  "name": "jmrashed-code-snippet-manager",
+  "version": "1.0.1",
+  "description": "A simple CLI tool to manage your code snippets.",
+  "main": "index.js",
+  "bin": {
+    "code-snippet-manager": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "code",
+    "snippets",
+    "manager",
+    "cli",
+    "jmrashed"
+  ],
+  "author": "jmrashed",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.2.6"
+  }
+}
